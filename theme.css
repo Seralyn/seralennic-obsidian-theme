@@ -8,6 +8,7 @@ body {
 	--toggle-radius: 0px;
 	--toggle-thumb-radius: 0px;
 	--slider-thumb-radius: 0px;
+	--font-text-theme: Avenir, sans-serif;
 }
 
 .workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {
@@ -32,3 +33,31 @@ svg * {
 .menu-separator {
 	margin: var(--size-2-1) calc(var(--size-2-1) * -1);
 }
+
+
+.theme-dark {
+	color: rgb(19, 227, 168);
+	--nav-item-color: #6efbaf;
+	--background-primary: #1b1b70;
+	--background-secondary: #220070;
+	--h1-color: rgb(253, 22, 226);
+	--h2-color: rgb(253, 253, 22);
+	--h3-color: rgb(253, 130, 22);
+	--h4-color: rgb(53, 253, 22);
+	--h5-color: rgb(149, 22, 253);
+	--h6-color: rgb(253, 22, 226);
+
+	--h1-size: 3.2em;
+    --h2-size: 2.5em;
+    --h3-size: 2.2em;
+    --h4-size: 2em;
+    --h5-size: 1.8em;
+    --h6-size: 1.5em;
+
+	.mod-left-split .workspace-leaf-content {background-color: #0e0e57;}
+  }
+  
+  .theme-light {
+	--background-primary: #29298c;
+	--background-secondary: #D9C9FF;
+  }
