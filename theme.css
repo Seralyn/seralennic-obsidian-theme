@@ -9,6 +9,14 @@ body {
 	--toggle-thumb-radius: 0px;
 	--slider-thumb-radius: 0px;
 	--font-text-theme: Avenir, sans-serif;
+	--file-line-width:1000px
+}
+
+body.is-fullscreen
+{
+  --font-text-size: 220% !important; /* */
+  /* --font-adaptive-normal: 40px !important; /* */
+  --file-line-width:1500px
 }
 
 .workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {
