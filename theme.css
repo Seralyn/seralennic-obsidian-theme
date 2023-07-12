@@ -9,7 +9,10 @@ body {
 	--toggle-thumb-radius: 0px;
 	--slider-thumb-radius: 0px;
 	--font-text-theme: Avenir, sans-serif;
-	--file-line-width:1000px
+	--file-line-width:1000px;
+	--bold-weight: bold !important;
+	--bold-color: rgb(117 201 255) !important;
+	--italic-color: rgb(237, 234, 107);
 }
 
 body.is-fullscreen
@@ -63,6 +66,8 @@ svg * {
     --h6-size: 1.5em;
 
 	--inline-title-color: #5d5df7;
+
+	
 
 	.mod-left-split .workspace-leaf-content {background-color: #0e0e57;}
   }
